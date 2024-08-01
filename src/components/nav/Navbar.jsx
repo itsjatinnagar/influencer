@@ -62,9 +62,9 @@ export default function Navbar() {
             </nav>
             <div
                 className={clsx(
-                    "fixed top-0 left-0 h-full overflow-x-hidden bg-white z-20 flex flex-col pt-16 transition-all w-0 opacity-0",
+                    "fixed top-0 left-0 h-full w-full overflow-x-hidden bg-white z-20 flex flex-col pt-16 transition-all origin-left scale-x-0 opacity-0",
                     {
-                        "w-full opacity-100": isOpen === true,
+                        "scale-x-100 opacity-100": isOpen === true,
                     }
                 )}
             >
