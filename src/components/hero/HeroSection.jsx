@@ -1,8 +1,8 @@
 import Button from "../ui/Button";
 
-export default function Hero() {
+export default function HeroSection() {
     return (
-        <div className="px-5 py-20 flex items-center justify-center">
+        <section className="px-5 py-20 flex items-center justify-center">
             <div className="mx-auto container max-w-2xl text-center">
                 <h1 className="text-3xl sm:text-5xl font-extrabold inline-flex flex-col items-center justify-center text-center gap-y-2">
                     <span className="block font-normal">
@@ -20,6 +20,6 @@ export default function Hero() {
                     Schedule a free consultation
                 </Button>
             </div>
-        </div>
+        </section>
     );
 }

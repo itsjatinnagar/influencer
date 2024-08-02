@@ -1,4 +1,4 @@
-export default function StatCard({ children, title, subtitle }) {
+export default function StatisticCard({ children, title, subtitle }) {
     return (
         <div className="flex items-center justify-center gap-x-5">
             <div className="p-3">{children}</div>

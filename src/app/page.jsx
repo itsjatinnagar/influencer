@@ -1,15 +1,23 @@
-import Hero from "@/components/hero/Hero";
-import Navbar from "@/components/nav/Navbar";
-import Statistics from "@/components/statistics/Statistics";
+import CreatorSection from "@/components/creator/CreatorSection";
+import FeatureSection from "@/components/feature/FeatureSection";
+import Header from "@/components/header/Header";
+import HeroSection from "@/components/hero/HeroSection";
+import MetricSection from "@/components/metric/MetricSection";
+import OfferingSection from "@/components/offerings/OfferingSection";
+import StatisticSection from "@/components/statistic/StatisticSection";
 import TopBrand from "@/components/top_brand/TopBrand";
 
 export default function Page() {
     return (
         <>
-            <Navbar />
-            <Hero />
+            <Header />
+            <HeroSection />
             <TopBrand />
-            <Statistics />
+            <StatisticSection />
+            <OfferingSection />
+            <FeatureSection />
+            <CreatorSection />
+            <MetricSection />
         </>
     );
 }
