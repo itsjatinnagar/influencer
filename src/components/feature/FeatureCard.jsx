@@ -4,8 +4,14 @@ import Button from "../ui/Button";
 export default function FeatureCard({ image, title, description, buttonText }) {
     return (
         <div className="flex flex-col">
-            <div className="h-96 inline-flex items-center justify-center bg-secondary">
-                <Image alt={title} src={image} width="1000" height="1000" />
+            <div className="py-10 h-96 inline-flex items-center justify-center bg-secondary overflow-hidden">
+                <Image
+                    alt={title}
+                    src={image}
+                    width="1000"
+                    height="1000"
+                    className="transition-transform hover:scale-110"
+                />
             </div>
             <div className="px-5 py-10">
                 <h3 className="mb-4 text-xl text-primary font-semibold">
