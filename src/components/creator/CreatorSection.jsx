@@ -5,7 +5,7 @@ export default function CreatorSection() {
         <section className="px-5 py-8">
             <div className="container mx-auto">
                 <div className="mb-10">
-                    <h2 className="text-2xl text-blue-900 text-center">
+                    <h2 className="text-2xl text-primary text-center">
                         <span>Best where it matters</span>
                         <span className="block font-semibold">The most</span>
                     </h2>

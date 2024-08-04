@@ -5,7 +5,7 @@ export default function FeatureSection() {
         <section className="py-12">
             <div className="container mx-auto">
                 <div className="mb-10">
-                    <h2 className="text-2xl text-blue-900 text-center">
+                    <h2 className="text-2xl text-primary text-center">
                         <span>Powerful tools for</span>
                         <span className="block font-semibold">
                             Impactful campaigns

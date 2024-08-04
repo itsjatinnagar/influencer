@@ -7,8 +7,8 @@ export default function CreatorCard({ image, title, description }) {
                 <Image alt={title} src={image} width="600" height="600" />
             </div>
             <div>
-                <h3 className="mb-3 text-xl text-blue-900">{title}</h3>
-                <p className="text-sm text-gray-900">{description}</p>
+                <h3 className="mb-3 text-xl text-primary">{title}</h3>
+                <p className="text-sm text-gray-800">{description}</p>
             </div>
         </div>
     );

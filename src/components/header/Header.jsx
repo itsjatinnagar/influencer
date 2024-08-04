@@ -39,8 +39,8 @@ export default function Header() {
                     <Image
                         alt="plogo"
                         src="/logo.png"
-                        width="500"
-                        height="500"
+                        width="1080"
+                        height="1080"
                         className="h-20 w-20"
                         priority
                     />

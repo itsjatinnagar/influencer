@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-li {
-    list-style: none;
+@layer base {
+    :root {
+        --background: 255 255 255;
+        --foreground: 21 20 20;
+        --primary: 209 95 84;
+        --primary-foreground: 250 240 240;
+        --secondary: 241 232 232;
+        --accent: 250 228 226;
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-background text-foreground;
+    }
+    li {
+        @apply list-none;
+    }
 }

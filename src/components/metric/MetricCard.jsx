@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MetricCard({ children, image, badge, logo }) {
     return (
-        <div className="rounded-2xl overflow-hidden flex bg-pink-300">
+        <div className="rounded-2xl overflow-hidden flex bg-accent">
             <div className="w-1/2">
                 <Image
                     alt={badge}
@@ -14,7 +14,7 @@ export default function MetricCard({ children, image, badge, logo }) {
             </div>
             <div className="w-1/2 px-3 py-10 inline-flex items-center flex-col gap-y-8">
                 <div className="mb-8 relative self-stretch">
-                    <h3 className="absolute -right-3 px-4 py-1 bg-blue-900 text-white text-[9px] font-semibold rounded-l-md">
+                    <h3 className="absolute -right-3 px-4 py-1 bg-primary text-primary-foreground text-[9px] font-semibold rounded-l-md">
                         {badge}
                     </h3>
                 </div>

@@ -2,10 +2,10 @@ import AccordionTile from "./AccordionTile";
 
 export default function AccordionSection() {
     return (
-        <section className="px-5 py-8 bg-blue-50">
+        <section className="px-5 py-8 bg-secondary/70">
             <div className="container mx-auto">
                 <div className="mb-10">
-                    <h2 className="text-2xl text-blue-900 text-center">FAQs</h2>
+                    <h2 className="text-2xl text-primary text-center">FAQs</h2>
                 </div>
                 <div>
                     <AccordionTile

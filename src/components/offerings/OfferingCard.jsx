@@ -8,7 +8,7 @@ export default function OfferingCard({
     buttonText,
 }) {
     return (
-        <div className="bg-blue-200 rounded-3xl overflow-hidden">
+        <div className="bg-accent rounded-3xl overflow-hidden">
             <Image
                 alt={title}
                 src={image}
@@ -17,10 +17,10 @@ export default function OfferingCard({
                 className="object-fill"
             />
             <div className="p-5">
-                <h3 className="mb-4 text-xl text-blue-900 font-semibold">
+                <h3 className="mb-4 text-xl text-primary font-semibold">
                     {title}
                 </h3>
-                <p className="mb-4 text-lg text-gray-900">{description}</p>
+                <p className="mb-4 text-lg text-gray-800">{description}</p>
                 <Button>{buttonText}</Button>
             </div>
         </div>

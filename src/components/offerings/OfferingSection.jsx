@@ -5,7 +5,7 @@ export default function OfferingSection() {
         <section className="px-5 py-12">
             <div className="mx-auto container">
                 <div className="mb-10">
-                    <h2 className="text-2xl text-blue-900 text-center">
+                    <h2 className="text-2xl text-primary text-center">
                         <span>Our </span>
                         <span className="font-semibold">offerings</span>
                     </h2>
