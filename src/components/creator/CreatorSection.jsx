@@ -1,3 +1,4 @@
+import Heading from "../ui/Heading";
 import CreatorCard from "./CreatorCard";
 
 export default function CreatorSection() {
@@ -5,10 +6,12 @@ export default function CreatorSection() {
         <section className="px-5 py-8">
             <div className="container mx-auto">
                 <div className="mb-10">
-                    <h2 className="text-2xl text-primary text-center">
-                        <span>Best where it matters</span>
-                        <span className="block font-semibold">The most</span>
-                    </h2>
+                    <Heading as="h2" className="text-primary">
+                        <span className="font-normal">
+                            Best where it matters
+                        </span>
+                        <span>The most</span>
+                    </Heading>
                 </div>
             </div>
             <div>

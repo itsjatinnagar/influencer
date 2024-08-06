@@ -10,10 +10,6 @@ const links = [
         href: "/creator",
     },
     {
-        name: "products & services",
-        href: "/services",
-    },
-    {
         name: "influencers",
         href: "/influencers",
     },

@@ -1,5 +1,6 @@
 import React from "react";
 import { cva } from "class-variance-authority";
+import Link from "next/link";
 
 const { cn } = require("@/lib/utils");
 
@@ -28,8 +29,14 @@ const buttonVariants = cva(
 );
 
 const Button = React.forwardRef(
-    ({ className, variant, size, ...props }, ref) => {
-        return (
+    ({ asLink = false, className, variant, size, ...props }, ref) => {
+        return asLink ? (
+            <Link
+                className={cn(buttonVariants({ variant, size, className }))}
+                ref={ref}
+                {...props}
+            />
+        ) : (
             <button
                 className={cn(buttonVariants({ variant, size, className }))}
                 ref={ref}

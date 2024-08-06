@@ -20,4 +20,7 @@
     li {
         @apply list-none;
     }
+    img {
+        @apply w-auto h-auto;
+    }
 }

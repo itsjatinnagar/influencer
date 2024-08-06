@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="px-5 pt-12 bg-primary text-primary-foreground">
             <div className="container mx-auto">
                 <div className="flex flex-wrap">
-                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2">
+                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2 lg:basis-1/4">
                         <strong>Home</strong>
                         <Link
                             className="text-slate-200 hover:underline"
@@ -32,7 +32,7 @@ export default function Footer() {
                             Top Youtubers in India
                         </Link>
                     </div>
-                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2">
+                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2 lg:basis-1/4">
                         <strong>I'm a Creator</strong>
                         <Link
                             className="text-slate-200 hover:underline"
@@ -59,7 +59,7 @@ export default function Footer() {
                             Top Creators
                         </Link>
                     </div>
-                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2">
+                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2 lg:basis-1/4">
                         <strong>About Us</strong>
                         <Link
                             className="text-slate-200 hover:underline"
@@ -92,7 +92,7 @@ export default function Footer() {
                             Cancellation & Refunds
                         </Link>
                     </div>
-                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2">
+                    <div className="mb-6 px-2 flex flex-col gap-y-2 grow-0 shrink-0 basis-1/2 lg:basis-1/4">
                         <strong>Products & Services</strong>
                         <Link
                             className="text-slate-200 hover:underline"
