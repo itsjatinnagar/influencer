@@ -1,5 +1,6 @@
 import Button from "@/components/common/Button";
 import Heading from "@/components/common/Heading";
+import CreatorSection from "@/components/homepage/ui/CreatorSection";
 import FAQSection from "@/components/homepage/ui/FAQSection";
 import FeatureSection from "@/components/homepage/ui/FeatureSection";
 import OfferingSection from "@/components/homepage/ui/OfferingSection";
@@ -52,6 +53,39 @@ export default function Page() {
                     <span>Impactful campaigns</span>
                 </SectionHeader>
                 <FeatureSection />
+            </section>
+
+            <section className="px-5 py-12">
+                <div className="mx-auto container">
+                    <SectionHeader as="h2" className="flex-col text-primary">
+                        <span className="font-normal">
+                            Best where it matters
+                        </span>
+                        <span>The most</span>
+                    </SectionHeader>
+                    <CreatorSection />
+                </div>
+            </section>
+
+            <section className="px-5 py-12">
+                <div className="container mx-auto">
+                    <div className="p-10 bg-secondary text-primary rounded-3xl text-center shadow-lg lg:py-20">
+                        <div className="max-w-xl mx-auto flex flex-col gap-y-6">
+                            <Heading
+                                as="h3"
+                                className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
+                            >
+                                Ready to get started?
+                            </Heading>
+                            <p className="text-sm md:text-base lg:text-lg xl:text-xl">
+                                Make the most of your influencer marketing
+                                program with our all-in-one creator management
+                                platform.
+                            </p>
+                            <Button size="lg">Try Now For Free</Button>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section className="px-5 py-12 bg-secondary/70">
